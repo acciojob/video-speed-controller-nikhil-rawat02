@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Video Speed Scrubber</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <div class="player wrapper">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Video Speed Scrubber</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="player wrapper">
       <video
         class="player__video viewer"
         src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"
       ></video>
 
-  <div class="wrapper">
-    <video class="flex" width="765" height="430" src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" controls></video>
-    <div class="speed">
-      <div class="speed-bar">1×</div>
       <div class="player__controls">
         <div class="progress">
           <div class="progress__filled"></div>
@@ -46,10 +41,7 @@
         <button data-skip="25" class="player__button">25s »</button>
       </div>
     </div>
-  </div>
 
-<script  src="./script.js">
-  //Your code goes here
-</script>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
